@@ -1,3 +1,3 @@
-[submodule "components/QC8550"]
-	path = components/QC8550
-	url = https://github.com/woa-kailua/windows_silicon_qcom_kailua
+[submodule "components/QC8350"]
+	path = components/QC8350
+	url = https://github.com/woa-lahaina/windows_silicon_qcom_lahaina
