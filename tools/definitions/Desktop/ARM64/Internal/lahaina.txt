@@ -1,0 +1,6 @@
+[Drivers]
+\components\Devices\Lahaina=""
+\components\QC8350=""
+
+[Apps]
+\apps\IPA=""
