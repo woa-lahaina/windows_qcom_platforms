@@ -109,7 +109,7 @@
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Subsystems\Sensors" Name="qcsubsys_ext_scss8280.inf" ID="qcsubsys_ext_scss8280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\WLAN" Name="qcwlan_ext8280.inf" ID="qcwlan_ext8280"/> -->
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\ProvisioningPkgs" Name="qcppmsettings8350.inf" ID="qcppmsettings8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\ProvisioningPkgs" Name="qcppmsettings8350.inf" ID="qcppmsettings8350"/>
         </BaseDriverPackages>
     </Drivers>
     <AppX>
