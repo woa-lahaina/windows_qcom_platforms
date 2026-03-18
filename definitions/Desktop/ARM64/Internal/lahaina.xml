@@ -51,7 +51,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\Core" Name="qcpmic8280.inf" ID="qcpmic8280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\GLINK" Name="QcPmicGlink8280.inf" ID="QcPmicGlink8280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\GPIO" Name="qcpmicgpio8280.inf" ID="qcpmicgpio8280"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PowerManagement" Name="qcpep.wd8280.inf" ID="qcpep.wd8280"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PowerManagement" Name="qcpep.wp8350.inf" ID="qcpep.wp8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\Provisioning" Name="QcSOCPartition.inf" ID="QcSOCPartition"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\ResetPower\CrashDumpInjector" Name="qccdi8280.inf" ID="qccdi8280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\ResetPower\ResetProtectionEnabler" Name="qcrpen.inf" ID="qcrpen"/>
@@ -65,7 +65,7 @@
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\Transports" Name="QcTftpKmdf.inf" ID="QcTftpKmdf"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\TrEE" Name="QcTrEE.inf" ID="QcTrEE"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\UART" Name="qcuart8280.inf" ID="qcuart8280"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\VoltageCurrentMonitoring" Name="qcadc8280.inf" ID="qcadc8280"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\VoltageCurrentMonitoring" Name="qcadc8280.inf" ID="qcadc8280"/>
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Subsystems\CombinedSubsystem" Name="qcsubsys8280.inf" ID="qcsubsys8280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Subsystems\ConnectionSecurity" Name="qcconnectionsecurity8280.inf" ID="qcconnectionsecurity8280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Subsystems\ProtectionDomainServiceRegistry" Name="qcpdsr.inf" ID="qcpdsr"/> -->
@@ -98,6 +98,7 @@
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\HumanPresence\AlwaysOnCVSensor" Name="qcAlwaysOnCVSensor_ext8280.inf" ID="qcAlwaysOnCVSensor_ext8280"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\PMIC\BatteryCurrentLimiter" Name="qcfgbclext8280.inf" ID="qcfgbclext8280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\PMIC\Core" Name="qcpmicext8280.inf" ID="qcpmicext8280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\PowerManagement" Name="qcpepextension8350.inf" ID="qcpepextension8350"/>
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Sensors\QRD" Name="qcSensorsConfig8280.inf" ID="qcSensorsConfig8280"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\SOC\IOMMU" Name="qciommuext8280.inf" ID="qciommuext8280"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\SOC\TrEE\OEM" Name="QcTreeExtOem8280.inf" ID="QcTreeExtOem8280"/>
@@ -108,6 +109,7 @@
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Subsystems\Sensors" Name="qcsubsys_ext_scss8280.inf" ID="qcsubsys_ext_scss8280"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/> -->
             <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\WLAN" Name="qcwlan_ext8280.inf" ID="qcwlan_ext8280"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\ProvisioningPkgs" Name="qcppmsettings8350.inf" ID="qcppmsettings8350"/>
         </BaseDriverPackages>
     </Drivers>
     <AppX>
