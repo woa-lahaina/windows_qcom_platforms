@@ -69,13 +69,19 @@
           <CommandLine>reg add "HKLM\SYSTEM\CurrentControlSet\Control\Lsa" /v LimitBlankPasswordUse /t REG_DWORD /d 0 /f</CommandLine>
         </SynchronousCommand>
         <SynchronousCommand wcm:action="add">
-          <Description>Allow RDP on the network</Description>
+          <Description>Allow No Password Sessions</Description>
           <Order>4</Order>
-          <CommandLine>netsh advfirewall firewall set rule group="remote desktop" new enable=yes</CommandLine>
+          <CommandLine>reg add "HKLM\SYSTEM\CurrentControlSet\Services\MpsSvc" /v start /t REG_DWORD /d 4 /f</CommandLine>
         </SynchronousCommand>
         <SynchronousCommand wcm:action="add">
-          <Description>Disable Password Expiration</Description>
+          <Description>Allow RDP on the network</Description>
           <Order>5</Order>
+          <CommandLine>netsh advfirewall firewall set rule group="remote desktop" new enable=yes</CommandLine>
+        </SynchronousCommand>
+        <!-- DEPRECATED: On newer Windows Builds without "wmic". -->
+        <SynchronousCommand wcm:action="add">
+          <Description>Disable Password Expiration</Description>
+          <Order>6</Order>
           <CommandLine>wmic UserAccount where Name="Lahaina" set PasswordExpires=False</CommandLine>
         </SynchronousCommand>
       </FirstLogonCommands>
