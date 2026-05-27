@@ -3,115 +3,119 @@
         <BaseDriverPackages>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Lahaina\Setup\BypassNRO" Name="BypassNRO.inf" ID="BypassNRO"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Lahaina\Setup\DesktopSetup" Name="desktopsetup.inf" ID="desktopsetup"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\ADCM" Name="qcadcm8280.inf" ID="qcadcm8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\AudMiniport" Name="qcaudminiport_Base8280.inf" ID="qcaudminiport_Base8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\Device" Name="qcaucd8280.inf" ID="qcaucd8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\ListenSoundModel" Name="QCListenSM_swc8280.inf" ID="QCListenSM_swc8280"/> -->
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\RPC\ADSPRPC" Name="qcadsprpc8280.inf" ID="qcadsprpc8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\RPC\ADSPRPCD" Name="qcadsprpcd8280.inf" ID="qcadsprpcd8280"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\Slimbus" Name="qcslimbus8280.inf" ID="qcslimbus8280"/> -->
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Battery\BatteryCurrentLimiter" Name="qcfgbcl8280.inf" ID="qcfgbcl8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Battery\BatteryMiniclass" Name="qcbattminiclass8280.inf" ID="qcbattminiclass8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry8280.inf" ID="qcbtaddvscregistry8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Bluetooth\BTFMUART_HSP" Name="qcbtfmuart_hsp8280.inf" ID="qcbtfmuart_hsp8280"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\AuxilarySensor" Name="qccamauxsensor8280.inf" ID="qccamauxsensor8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\AVStream" Name="qccamavs8280.inf" ID="qccamavs8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\Flash" Name="qccamflash8280.inf" ID="qccamflash8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\FrontSensor" Name="qccamfrontsensor8280.inf" ID="qccamfrontsensor8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\ISP" Name="qccamisp8280.inf" ID="qccamisp8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\JPEGEncoder" Name="qccamjpege8280.inf" ID="qccamjpege8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\MIPICSI" Name="qccammipicsi8280.inf" ID="qccammipicsi8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\Platform" Name="qccamplatform8280.inf" ID="qccamplatform8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\RearSensor" Name="qccamrearsensor8280.inf" ID="qccamrearsensor8280"/> -->
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\DeepStandby" Name="qcdeepstandbymdm8280.inf" ID="qcdeepstandbymdm8280"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\ADCM" Name="qcadcm8350.inf" ID="qcadcm8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\AudMiniport" Name="qcaudminiport_Base8350.inf" ID="qcaudminiport_Base8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\Device" Name="qcaucd8350.inf" ID="qcaucd8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\ListenSoundModel" Name="QCListenSM_swc8350.inf" ID="QCListenSM_swc8350"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\RPC\ADSPRPC" Name="qcadsprpc8350.inf" ID="qcadsprpc8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\RPC\ADSPRPCD" Name="qcadsprpcd8350.inf" ID="qcadsprpcd8350"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\Slimbus" Name="qcslimbus8350.inf" ID="qcslimbus8350"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Battery\BatteryCurrentLimiter" Name="qcfgbcl8350.inf" ID="qcfgbcl8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Battery\BatteryMiniclass" Name="qcbattminiclass8350.inf" ID="qcbattminiclass8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry8350.inf" ID="qcbtaddvscregistry8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Bluetooth\BTFMUART_HSP" Name="qcbtfmuart_hsp8350.inf" ID="qcbtfmuart_hsp8350"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\AuxilarySensor" Name="qccamauxsensor8350.inf" ID="qccamauxsensor8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\AVStream" Name="qccamavs8350.inf" ID="qccamavs8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\Flash" Name="qccamflash8350.inf" ID="qccamflash8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\FrontSensor" Name="qccamfrontsensor8350.inf" ID="qccamfrontsensor8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\ISP" Name="qccamisp8350.inf" ID="qccamisp8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\JPEGEncoder" Name="qccamjpege8350.inf" ID="qccamjpege8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\MIPICSI" Name="qccammipicsi8350.inf" ID="qccammipicsi8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\Platform" Name="qccamplatform8350.inf" ID="qccamplatform8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\RearSensor" Name="qccamrearsensor8350.inf" ID="qccamrearsensor8350"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\DeepStandby" Name="qcdeepstandbymdm8350.inf" ID="qcdeepstandbymdm8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\DiagBridge" Name="QCDiagBridge.inf" ID="QCDiagBridge"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\DiagRouter" Name="qcdiagrouter8280.inf" ID="qcdiagrouter8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\IPCRouter" Name="qcipcrouter8280.inf" ID="qcipcrouter8280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\DiagRouter" Name="qcdiagrouter8350.inf" ID="qcdiagrouter8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\IPA" Name="qcipa8350.inf" ID="qcipa8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\IPCRouter" Name="qcipcrouter8350.inf" ID="qcipcrouter8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\MBBNetAdapter" Name="qcmbbnetadapter8350.inf" ID="qcmbbnetadapter8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\RemoteFS\ReadOnlyFS1FS2" Name="qcremotefs8350.inf" ID="qcremotefs8350"/>
 <!--             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\PowerDown" Name="qcwwanpowerdown.inf" ID="qcwwanpowerdown"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Graphics\DXKM" Name="qcdx8280.inf" ID="qcdx8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Graphics\QDCM" Name="qdcmlib8280.inf" ID="qdcmlib8280"/> -->
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\HALs\WatchDog" Name="HalExtQCWdogTimer8280.inf" ID="HalExtQCWdogTimer8280"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\HumanPresence\HumanPresenceSensor" Name="qcHumanPresenceSensor.inf" ID="qcHumanPresenceSensor"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SAR" Name="qSarMgr.inf" ID="qSarMgr"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SecurityProcessor" Name="qcsp8280.inf" ID="qcsp8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Sensors\SSC" Name="qcSensors.inf" ID="qcSensors"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Graphics\DXKM" Name="qcdx8350.inf" ID="qcdx8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Graphics\QDCM" Name="qdcmlib8350.inf" ID="qdcmlib8350"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\HALs\WatchDog" Name="HalExtQCWdogTimer8350.inf" ID="HalExtQCWdogTimer8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\HumanPresence\HumanPresenceSensor" Name="qcHumanPresenceSensor.inf" ID="qcHumanPresenceSensor"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SAR" Name="qSarMgr.inf" ID="qSarMgr"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SecurityProcessor" Name="qcsp8350.inf" ID="qcsp8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Sensors\SSC" Name="qcSensors.inf" ID="qcSensors"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Shutdown" Name="qcshutdownsvc.inf" ID="qcshutdownsvc"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\ACPI" Name="qcabd.inf" ID="qcabd"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\Buses\GLINK" Name="qcglink8280.inf" ID="qcglink8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\Buses\GPI" Name="qcgpi8280.inf" ID="qcgpi8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\GPIO" Name="qcgpio8280.inf" ID="qcgpio8280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\Buses\GLINK" Name="qcglink8350.inf" ID="qcglink8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\Buses\GPI" Name="qcgpi8350.inf" ID="qcgpi8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\GPIO" Name="qcgpio8350.inf" ID="qcgpio8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\HexagonLoader\PIL" Name="qcpil.inf" ID="qcpil"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\HexagonLoader\SecureKernel" Name="QcSkExt8280.inf" ID="QcSkExt8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\I2C" Name="qci2c8280.inf" ID="qci2c8280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\HexagonLoader\SecureKernel" Name="QcSkExt8350.inf" ID="QcSkExt8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\I2C" Name="qci2c8350.inf" ID="qci2c8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\IOMMU" Name="qciommu.inf" ID="qciommu"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\IPCC" Name="qcipcc8280.inf" ID="qcipcc8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\LED" Name="qchwnled8280.inf" ID="qchwnled8280"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PCIe" Name="qcppx8280.inf" ID="qcppx8280"/> -->
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\Apps" Name="QcPmicApps8280.inf" ID="QcPmicApps8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\Core" Name="qcpmic8280.inf" ID="qcpmic8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\GLINK" Name="QcPmicGlink8280.inf" ID="QcPmicGlink8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\GPIO" Name="qcpmicgpio8280.inf" ID="qcpmicgpio8280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\IPCC" Name="qcipcc8350.inf" ID="qcipcc8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\LED" Name="qchwnled8350.inf" ID="qchwnled8350"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PCIe" Name="qcppx8350.inf" ID="qcppx8350"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\Apps" Name="QcPmicApps8350.inf" ID="QcPmicApps8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\Core" Name="qcpmic8350.inf" ID="qcpmic8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\GLINK" Name="QcPmicGlink8350.inf" ID="QcPmicGlink8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\GPIO" Name="qcpmicgpio8350.inf" ID="qcpmicgpio8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PowerManagement" Name="qcpep.wp8350.inf" ID="qcpep.wp8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\Provisioning" Name="QcSOCPartition.inf" ID="QcSOCPartition"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\ResetPower\CrashDumpInjector" Name="qccdi8280.inf" ID="qccdi8280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\ResetPower\CrashDumpInjector" Name="qccdi8350.inf" ID="qccdi8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\ResetPower\ResetProtectionEnabler" Name="qcrpen.inf" ID="qcrpen"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\System\BusAccessModule" Name="qckmbam8280.inf" ID="qckmbam8280"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\System\CacheController" Name="qcsyscache8280.inf" ID="qcsyscache8280"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\System\BusAccessModule" Name="qckmbam8350.inf" ID="qckmbam8350"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\System\CacheController" Name="qcsyscache8350.inf" ID="qcsyscache8350"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\System\SCM" Name="qcscm.inf" ID="qcscm"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\System\SecApp" Name="qcsecapp.inf" ID="qcsecapp"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\SMMU" Name="qcsmmu8280.inf" ID="qcsmmu8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\SPI" Name="qcspi8280.inf" ID="qcspi8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\SPMI" Name="qcspmi8280.inf" ID="qcspmi8280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\SMMU" Name="qcsmmu8350.inf" ID="qcsmmu8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\SPI" Name="qcspi8350.inf" ID="qcspi8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\SPMI" Name="qcspmi8350.inf" ID="qcspmi8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\Transports" Name="QcTftpKmdf.inf" ID="QcTftpKmdf"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\TrEE" Name="QcTrEE.inf" ID="QcTrEE"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\UART" Name="qcuart8280.inf" ID="qcuart8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\VoltageCurrentMonitoring" Name="qcadc8280.inf" ID="qcadc8280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\UART" Name="qcuart8350.inf" ID="qcuart8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\VoltageCurrentMonitoring" Name="qcadc8350.inf" ID="qcadc8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Subsystems\CombinedSubsystem" Name="qcsubsys8350.inf" ID="qcsubsys8350"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Subsystems\ConnectionSecurity" Name="qcconnectionsecurity8280.inf" ID="qcconnectionsecurity8280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Subsystems\ConnectionSecurity" Name="qcconnectionsecurity8350.inf" ID="qcconnectionsecurity8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Subsystems\ProtectionDomainServiceRegistry" Name="qcpdsr.inf" ID="qcpdsr"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Subsystems\SSGServices" Name="qcSSGServicesUMD.inf" ID="qcSSGServicesUMD"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Subsystems\ThermalMgr" Name="qcSubsysThermalMgr.inf" ID="qcSubsysThermalMgr"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\USB\UCSI" Name="qcusbcucsi8280.inf" ID="qcusbcucsi8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\USBFn\Interfaces" Name="ufnserialcomposite.inf" ID="ufnserialcomposite"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\USBFn\SuperSpeedFilter" Name="QcUsbFnSsFilter8280.inf" ID="QcUsbFnSsFilter8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\USBHost" Name="QcXhciFilter8280.inf" ID="QcXhciFilter8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\WLAN\Core" Name="qcwlan8280.inf" ID="qcwlan8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\WLAN\SleepMgr" Name="qcWlanSleepMgr8280.inf" ID="qcWlanSleepMgr8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Audio\ACDB\QRD" Name="qcacsp_qrd8280.inf" ID="qcacsp_qrd8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Audio\AudMiniport\QRD" Name="qcaudminiportQRD_Extension8280.inf" ID="qcaudminiportQRD_Extension8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Audio\Device\QRD" Name="qcaucd_ext_qrd8280.inf" ID="qcaucd_ext_qrd8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Audio\ListenSoundModel\Calibration" Name="QCListenSM_swc_ext8280.inf" ID="QCListenSM_swc_ext8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Audio\ListenSoundModel\ComponentExtension" Name="QCListenSM8280.inf" ID="QCListenSM8280"/> -->
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Bluetooth" Name="qcbtfmuart_ext8280.inf" ID="qcbtfmuart_ext8280"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\AuxilarySensor" Name="qccamauxsensor_extension8280.inf" ID="qccamauxsensor_extension8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\AVStream" Name="qccamavsqrd_ext8280.inf" ID="qccamavsqrd_ext8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\Flash" Name="qccamflash_ext8280.inf" ID="qccamflash_ext8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\FrontSensor" Name="qccamfrontsensor_extension8280.inf" ID="qccamfrontsensor_extension8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\ISP" Name="qccamisp_ext8280.inf" ID="qccamisp_ext8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\JPEGEncoder" Name="qccamjpege_ext8280.inf" ID="qccamjpege_ext8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\MIPICSI" Name="qccammipicsi_ext8280.inf" ID="qccammipicsi_ext8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\Platform" Name="qccamplatform_ext8280.inf" ID="qccamplatform_ext8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\RearSensor" Name="qccamrearsensor_extension8280.inf" ID="qccamrearsensor_extension8280"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Graphics\DXKM\QRD" Name="qcdxext_qrd8280.inf" ID="qcdxext_qrd8280"/> -->
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\HexagonLoader\PIL" Name="qcpilEXT8280.inf" ID="qcpilEXT8280"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\USB\UCSI" Name="qcusbcucsi8350.inf" ID="qcusbcucsi8350"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\USBFn\Interfaces" Name="ufnserialcomposite.inf" ID="ufnserialcomposite"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\USBFn\SuperSpeedFilter" Name="QcUsbFnSsFilter8350.inf" ID="QcUsbFnSsFilter8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\USBHost" Name="QcXhciFilter8350.inf" ID="QcXhciFilter8350"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\WLAN\Core" Name="qcwlan8350.inf" ID="qcwlan8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\WLAN\SleepMgr" Name="qcWlanSleepMgr8350.inf" ID="qcWlanSleepMgr8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Audio\ACDB\QRD" Name="qcacsp_qrd8350.inf" ID="qcacsp_qrd8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Audio\AudMiniport\QRD" Name="qcaudminiportQRD_Extension8350.inf" ID="qcaudminiportQRD_Extension8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Audio\Device\QRD" Name="qcaucd_ext_qrd8350.inf" ID="qcaucd_ext_qrd8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Audio\ListenSoundModel\Calibration" Name="QCListenSM_swc_ext8350.inf" ID="QCListenSM_swc_ext8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Audio\ListenSoundModel\ComponentExtension" Name="QCListenSM8350.inf" ID="QCListenSM8350"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Bluetooth" Name="qcbtfmuart_ext8350.inf" ID="qcbtfmuart_ext8350"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\AuxilarySensor" Name="qccamauxsensor_extension8350.inf" ID="qccamauxsensor_extension8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\AVStream" Name="qccamavsqrd_ext8350.inf" ID="qccamavsqrd_ext8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\Flash" Name="qccamflash_ext8350.inf" ID="qccamflash_ext8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\FrontSensor" Name="qccamfrontsensor_extension8350.inf" ID="qccamfrontsensor_extension8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\ISP" Name="qccamisp_ext8350.inf" ID="qccamisp_ext8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\JPEGEncoder" Name="qccamjpege_ext8350.inf" ID="qccamjpege_ext8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\MIPICSI" Name="qccammipicsi_ext8350.inf" ID="qccammipicsi_ext8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\Platform" Name="qccamplatform_ext8350.inf" ID="qccamplatform_ext8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Camera\RearSensor" Name="qccamrearsensor_extension8350.inf" ID="qccamrearsensor_extension8350"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Cellular\IPA" Name="qcipaext8350.inf" ID="qcipaext8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Cellular\MBBNetAdapter" Name="qcmbbnetadapter_ext8350.inf" ID="qcmbbnetadapter_ext8350"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Graphics\DXKM\QRD" Name="qcdxext_qrd8350.inf" ID="qcdxext_qrd8350"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\HexagonLoader\PIL" Name="qcpilEXT8350.inf" ID="qcpilEXT8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\HexagonLoader\PILFilter" Name="qcpilfilterext.inf" ID="qcpilfilterext"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\HumanPresence\AlwaysOnCVSensor" Name="qcAlwaysOnCVSensor_ext8280.inf" ID="qcAlwaysOnCVSensor_ext8280"/> -->
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\PMIC\BatteryCurrentLimiter" Name="qcfgbclext8280.inf" ID="qcfgbclext8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\PMIC\Core" Name="qcpmicext8280.inf" ID="qcpmicext8280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\HumanPresence\AlwaysOnCVSensor" Name="qcAlwaysOnCVSensor_ext8350.inf" ID="qcAlwaysOnCVSensor_ext8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\PMIC\BatteryCurrentLimiter" Name="qcfgbclext8350.inf" ID="qcfgbclext8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\PMIC\Core" Name="qcpmicext8350.inf" ID="qcpmicext8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\PowerManagement" Name="qcpepextension8350.inf" ID="qcpepextension8350"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Sensors\QRD" Name="qcSensorsConfig8280.inf" ID="qcSensorsConfig8280"/> -->
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\SOC\IOMMU" Name="qciommuext8280.inf" ID="qciommuext8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\SOC\TrEE\OEM" Name="QcTreeExtOem8280.inf" ID="QcTreeExtOem8280"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\SOC\TrEE\QCOM" Name="QcTreeExtQcom8280.inf" ID="QcTreeExtQcom8280"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Sensors\MTP" Name="qcSensorsConfig8350.inf" ID="qcSensorsConfig8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\SOC\IOMMU" Name="qciommuext8350.inf" ID="qciommuext8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\SOC\TrEE\OEM" Name="QcTreeExtOem8350.inf" ID="QcTreeExtOem8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\SOC\TrEE\QCOM" Name="QcTreeExtQcom8350.inf" ID="QcTreeExtQcom8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Subsystems\Audio" Name="qcsubsys_ext_adsp8350.inf" ID="qcsubsys_ext_adsp8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Subsystems\Compute" Name="qcsubsys_ext_cdsp8350.inf" ID="qcsubsys_ext_cdsp8350"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Subsystems\Modem" Name="qcsubsys_ext_mpss8350.inf" ID="qcsubsys_ext_mpss8350"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Subsystems\ModemConfig" Name="mcfg_subsys_ext8350.inf" ID="mcfg_subsys_ext8350"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Subsystems\Modem" Name="qcsubsys_ext_mpss8350.inf" ID="qcsubsys_ext_mpss8350"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Subsystems\ModemConfig" Name="mcfg_subsys_ext8350.inf" ID="mcfg_subsys_ext8350"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Subsystems\SecurityProcessor" Name="qcsubsys_ext_spss8350.inf" ID="qcsubsys_ext_spss8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Subsystems\Sensors" Name="qcsubsys_ext_scss8350.inf" ID="qcsubsys_ext_scss8350"/>
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/> -->
-            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\WLAN" Name="qcwlan_ext8280.inf" ID="qcwlan_ext8280"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\WLAN" Name="qcwlan_ext8350.inf" ID="qcwlan_ext8350"/> -->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\ProvisioningPkgs" Name="qcppmsettings8350.inf" ID="qcppmsettings8350"/>
         </BaseDriverPackages>
     </Drivers>
